@@ -63,37 +63,37 @@ You must specify at least one action (like printing an image, text, or feeding p
 
 *   **Print an Image:**
     ```bash
-    python catprint_cli.py -i path/to/your/image.png -d YOUR_PRINTER_ADDRESS
+    python MXW01print.py -i path/to/your/image.png -d YOUR_PRINTER_ADDRESS
     ```
 *   **Print Text:**
     ```bash
-    python catprint_cli.py -t "Hello from CatPrint CLI!" -d YOUR_PRINTER_ADDRESS
+    python MXW01print.py -t "Hello Printer!" -d YOUR_PRINTER_ADDRESS
     ```
 *   **Print Text with Options:**
     ```bash
-    python catprint_cli.py -t "Centered Text" -n "Courier New" -z 32 -a center -d YOUR_PRINTER_ADDRESS
+    python MXW01print.py -t "Centered Text" -n "Courier New" -z 32 -a center -d YOUR_PRINTER_ADDRESS
     ```
-    *(Short form: `python catprint_cli.py -t "Centered Text" -n "Courier New" -z 32 -a center -d YOUR_PRINTER_ADDRESS`)*
+    *(Short form: `python MXW01print.py -t "Centered Text" -n "Courier New" -z 32 -a center -d YOUR_PRINTER_ADDRESS`)*
 *   **Print all images in a folder:**
     ```bash
-    python catprint_cli.py -f path/to/image_folder/ -d YOUR_PRINTER_ADDRESS
+    python MXW01print.py -f path/to/image_folder/ -d YOUR_PRINTER_ADDRESS
     ```
 *   **Feed Paper (e.g., 50 lines):**
     ```bash
-    python catprint_cli.py -p 50 -d YOUR_PRINTER_ADDRESS
+    python MXW01print.py -p 50 -d YOUR_PRINTER_ADDRESS
     ```
 *   **Run Test Sequence:**
     ```bash
     # Requires a 'test_print_images' folder with some images
-    python catprint_cli.py -x -d YOUR_PRINTER_ADDRESS
+    python MXW01print.py -x -d YOUR_PRINTER_ADDRESS
     ```
 *   **List Available Fonts:**
     ```bash
-    python catprint_cli.py -l
+    python MXW01print.py -l
     ```
 *   **Save Output to Files (Debug):**
     ```bash
-    python catprint_cli.py -i image.png -s
+    python MXW01print.py -i image.png -s
     # Output saved to 'debug_output/' folder
     ```
 
