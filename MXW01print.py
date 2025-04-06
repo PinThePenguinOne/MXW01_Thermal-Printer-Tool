@@ -28,7 +28,7 @@ SUPPORTED_EXTENSIONS = ('.png', '.jpg', '.jpeg', '.bmp', '.gif')
 DELAY_BETWEEN_PRINTS = 1.0 # Seconds (Applied between separate print jobs AND feed chunks)
 
 # Test Print Constants
-TEST_IMAGE_FOLDER = "test_print_imagese" # Folder to scan for --test-print images
+TEST_IMAGE_FOLDER = "test_print_images" # Folder to scan for --test-print images
 TEST_TEXT_JOBS = [
     ("Test: Short Text - Arial 24", "Arial", 24),
     ("Test: Slightly Longer Text - Arial 16", "Arial", 16),
