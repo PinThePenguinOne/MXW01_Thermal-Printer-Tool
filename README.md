@@ -54,7 +54,7 @@ You need the Bluetooth MAC address of your printer. You can usually find this us
 The basic command structure is:
 
 ```bash
-python catprint_cli.py [OPTIONS] [ACTION]
+python MXW01print.py [OPTIONS] [ACTION]
 ```
 
 You must specify at least one action (like printing an image, text, or feeding paper).
