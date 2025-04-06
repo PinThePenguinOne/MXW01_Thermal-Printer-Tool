@@ -102,7 +102,7 @@ You must specify at least one action (like printing an image, text, or feeding p
 | `-t`  | `--text`      | Text string to print.                                          |                         |
 | `-p`  | `--feed`      | Feed paper by specified lines (no value = 40).             | `None`                  |
 | `-x`  | `--test-print`| Run a test sequence.                                         | `False`                 |
-| `-d`  | `--device`    | Bluetooth MAC address of the printer.                        | `48:0F:57:11:58:E0`     |
+| `-d`  | `--device`    | Bluetooth MAC address of the printer.                        | `48:0F:57:00:00:00`     |
 | `-s`  | `--debug-save`| Save prepared bitmaps to files instead of printing.          | `False`                 |
 | `-u`  | `--upside-down`| Print the image(s) or text upside down.                      | `False`                 |
 | `-z`  | `--font-size` | Font size for text printing.                                 | `24`                    |
