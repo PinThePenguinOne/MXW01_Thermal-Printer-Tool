@@ -4,6 +4,8 @@ A command-line interface (CLI) tool written in Python to control and print image
 
 This script allows you to send print jobs directly from your computer without needing the official mobile app.
 
+![duck](https://github.com/user-attachments/assets/c312d74f-dcb0-44c7-bedb-e543f40d926f)
+
 ## Features
 
 *   **Print Images:** Print single image files (PNG, JPG, BMP, GIF). Images are automatically resized/padded to the printer's width (384px) and converted to 1-bit black and white.
@@ -43,7 +45,9 @@ This script allows you to send print jobs directly from your computer without ne
 
 You need the Bluetooth MAC address of your printer. You can usually find this using your system's Bluetooth scanning tools or other BLE scanning apps on your phone. Look for a device name similar to "MX01W". The address format is typically `XX:XX:XX:XX:XX:XX`.
 
+## Change your mac address in the script
 
+![image](https://github.com/user-attachments/assets/b4a5b2e5-bdcd-47c9-882b-d8d7107950c4)
 
 ## Usage
 
