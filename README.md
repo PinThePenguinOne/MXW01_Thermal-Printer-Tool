@@ -45,10 +45,11 @@ This script allows you to send print jobs directly from your computer without ne
 
 You need the Bluetooth MAC address of your printer. You can usually find this using your system's Bluetooth scanning tools or other BLE scanning apps on your phone. Look for a device name similar to "MX01W". The address format is typically `XX:XX:XX:XX:XX:XX`.
 
-## Change your mac address in the script
+### Change your mac address in the script
 
 ![image](https://github.com/user-attachments/assets/b4a5b2e5-bdcd-47c9-882b-d8d7107950c4)
 
+If you do this, you can omit the `-d` flag in the following commands.
 ## Usage
 
 The basic command structure is:
@@ -100,19 +101,19 @@ You must specify at least one action (like printing an image, text, or feeding p
 
 | Short | Long          | Description                                                    | Default                 |
 | :---- | :------------ | :------------------------------------------------------------- | :---------------------- |
-| `-i`  | `--image`     | Path to a single image file to print.                        |                         |
-| `-f`  | `--folder`    | Path to a folder containing images to print.                 |                         |
+| `-i`  | `--image`     | Path to a single image file to print.                          |                         |
+| `-f`  | `--folder`    | Path to a folder containing images to print.                   |                         |
 | `-t`  | `--text`      | Text string to print.                                          |                         |
-| `-p`  | `--feed`      | Feed paper by specified lines (no value = 40).             | `None`                  |
-| `-x`  | `--test-print`| Run a test sequence.                                         | `False`                 |
-| `-d`  | `--device`    | Bluetooth MAC address of the printer.                        | `48:0F:57:00:00:00`     |
-| `-s`  | `--debug-save`| Save prepared bitmaps to files instead of printing.          | `False`                 |
-| `-u`  | `--upside-down`| Print the image(s) or text upside down.                      | `False`                 |
-| `-z`  | `--font-size` | Font size for text printing.                                 | `24`                    |
-| `-n`  | `--font`      | Font name for text printing (use `-l` to list).              | `Arial`                 |
-| `-a`  | `--align`     | Text alignment (`left`, `center`, `right`).                  | `left`                  |
-| `-l`  | `--list-fonts`| List available system fonts and exit.                        | `False`                 |
-| `-h`  | `--help`      | Show the help message and exit.                              |                         |
+| `-p`  | `--feed`      | Feed paper by specified lines                                  | `40`                    |
+| `-x`  | `--test-print`| Run a test sequence.                                           |                         |
+| `-d`  | `--device`    | Bluetooth MAC address of the printer.                          | `48:0F:57:00:00:00`     |
+| `-s`  | `--debug-save`| Save prepared bitmaps to files instead of printing.            |                         |
+| `-u`  | `--upside-down`| Print the image(s) or text upside down.                       |                         |
+| `-z`  | `--font-size` | Font size for text printing.                                   | `24`                    |
+| `-n`  | `--font`      | Font name for text printing (use `-l` to list).                | `Arial`                 |
+| `-a`  | `--align`     | Text alignment (`left`, `center`, `right`).                    | `left`                  |
+| `-l`  | `--list-fonts`| List available system fonts and exit.                          |                         |
+| `-h`  | `--help`      | Show the help message and exit.                                |                         |
 
 **Notes:**
 
