@@ -73,7 +73,6 @@ You must specify at least one action (like printing an image, text, or feeding p
     ```bash
     python MXW01print.py -t "Centered Text" -n "Courier New" -z 32 -a center -d YOUR_PRINTER_ADDRESS
     ```
-    *(Short form: `python MXW01print.py -t "Centered Text" -n "Courier New" -z 32 -a center -d YOUR_PRINTER_ADDRESS`)*
 *   **Print all images in a folder:**
     ```bash
     python MXW01print.py -f path/to/image_folder/ -d YOUR_PRINTER_ADDRESS
