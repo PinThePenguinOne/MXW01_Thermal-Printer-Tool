@@ -1,4 +1,3 @@
-# catprint_cli.py
 import asyncio
 import argparse
 import os
