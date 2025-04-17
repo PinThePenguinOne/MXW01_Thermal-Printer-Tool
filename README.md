@@ -33,7 +33,7 @@ This script allows you to send print jobs directly from your computer without ne
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/PinThePenguine/MXW01_Thermal-Printer-Tool.git
+    git clone https://github.com/PinThePenguinOne/MXW01_Thermal-Printer-Tool.git
     cd MXW01_Thermal-Printer-Tool
     ```
 2.  **Install dependencies:**
